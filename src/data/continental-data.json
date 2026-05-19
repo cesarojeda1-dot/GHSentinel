@@ -1,0 +1,108 @@
+{
+  "continentalOverview": {
+    "totalCases": 125480,
+    "totalDeaths": 3240,
+    "affectedCountries": 8,
+    "activeAlerts": 24,
+    "lastUpdated": "2026-05-19T10:30:00Z"
+  },
+  "topDiseases": [
+    {
+      "code": "FPV",
+      "name": "Feline Panleukopenia Virus",
+      "cases": 45320,
+      "deaths": 1240,
+      "regions": ["AR", "BR", "CO", "MX"],
+      "trendDirection": "up"
+    },
+    {
+      "code": "CDV",
+      "name": "Canine Distemper Virus",
+      "cases": 38920,
+      "deaths": 1560,
+      "regions": ["MX", "CO", "PE", "CL"],
+      "trendDirection": "stable"
+    },
+    {
+      "code": "RABV",
+      "name": "Rabies Virus",
+      "cases": 22850,
+      "deaths": 440,
+      "regions": ["AR", "BR", "CO", "MX", "PE"],
+      "trendDirection": "down"
+    },
+    {
+      "code": "PARVOV",
+      "name": "Canine Parvovirus",
+      "cases": 18390,
+      "deaths": 0,
+      "regions": ["MX", "CO", "EC", "CL"],
+      "trendDirection": "stable"
+    }
+  ],
+  "countryMetrics": [
+    {
+      "code": "MX",
+      "name": "Mexico",
+      "cases": 28450,
+      "deaths": 890,
+      "riskLevel": "high",
+      "healthAuthority": "COFEPRIS",
+      "topDiseases": ["CDV", "PARVOV", "FPV"]
+    },
+    {
+      "code": "BR",
+      "name": "Brazil",
+      "cases": 35680,
+      "deaths": 1120,
+      "riskLevel": "high",
+      "healthAuthority": "MAPA",
+      "topDiseases": ["FPV", "CDV", "RABV"]
+    },
+    {
+      "code": "CO",
+      "name": "Colombia",
+      "cases": 18920,
+      "deaths": 420,
+      "riskLevel": "medium",
+      "healthAuthority": "ICA",
+      "topDiseases": ["CDV", "FPV", "RABV"]
+    },
+    {
+      "code": "AR",
+      "name": "Argentina",
+      "cases": 22390,
+      "deaths": 540,
+      "riskLevel": "medium",
+      "healthAuthority": "SENASA",
+      "topDiseases": ["FPV", "RABV", "CDV"]
+    },
+    {
+      "code": "PE",
+      "name": "Peru",
+      "cases": 12450,
+      "deaths": 180,
+      "riskLevel": "low",
+      "healthAuthority": "SENASA",
+      "topDiseases": ["CDV", "RABV", "FPV"]
+    },
+    {
+      "code": "CL",
+      "name": "Chile",
+      "cases": 4280,
+      "deaths": 80,
+      "riskLevel": "low",
+      "healthAuthority": "SAG",
+      "topDiseases": ["PARVOV", "FPV", "CDV"]
+    },
+    {
+      "code": "EC",
+      "name": "Ecuador",
+      "cases": 2560,
+      "deaths": 20,
+      "riskLevel": "low",
+      "healthAuthority": "AGROCALIDAD",
+      "topDiseases": ["PARVOV", "FPV"]
+    }
+  ]
+}
